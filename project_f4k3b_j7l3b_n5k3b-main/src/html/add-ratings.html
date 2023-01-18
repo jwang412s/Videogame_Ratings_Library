@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Add a Rating</title>
+  <link rel="stylesheet" href="./css/add-ratings-style.css" type="text/css">
+</head>
+<!--<div class="ratings-title">Add a new Rating:</div>-->
+<!--
+<form>
+  <label for="name">
+      Name of Game:
+      <input type="text" id="name" name="name" size="50" placeholder="Start typing...">
+  </label>
+  <label for="stars">
+      Star Rating:
+      <input type="range" id="stars" value="1" min="1" max="5" step="1" size="20px" oninput="this.nextElementSibling.value = this.value">
+      <output style="padding-left: 60px">1</output>
+  </label>
+  <label for="title">
+      Comments:
+      <input type="text" id="title" placeholder="Start typing..." style="height: 150px" size="100" >
+  </label>
+    <label>
+        <input type="button" value="Submit">
+    </label>
+</form>
+-->
+<body>
+    <h2>Add a New Rating</h2>
+        <form method="POST" action="add-ratings.php"> <!--refresh page when submitted-->
+            <input type="hidden" id="insertQueryRequest" name="insertQueryRequest">
+            <label>ratingID:</label> <input type="text" name="insRatingID"> <br /><br />
+            <label>Stars:</label> <input type="number" name="insStars" min="1" max="5" value="1"> <br /><br />
+            <label>Comments:</label> <input type="text" name="insComments" style="height: 100px; width: 400px"> <br /><br />
+            <label>GameID</label> <input type="number" name="insGameID"> <br /><br />
+            <label>Username:</label> <input type="text" name="insUsername"> <br /><br />
+
+            <input type="submit" value="Insert" name="insertSubmit"></p>
+        </form>
+
+        <hr />
+
+</body>
+</html>

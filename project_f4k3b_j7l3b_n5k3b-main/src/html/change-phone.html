@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="add-ratings-style.css" type="text/css">
+</head>
+<div class="ratings-title">Change Name:</div>
+
+<body>
+<!--
+<form>
+  <label for="phone">New Phone Number:</label>
+  <input type="text" id="phone" name="phone">
+    <input type="submit" value="Confirm">
+</form>
+-->
+
+
+<form method="POST" action="change-phone.php"> <!--refresh page when submitted-->
+    <input type="hidden" id="updateQueryRequest" name="updateQueryRequest">
+    Old Name: <input type="text" name="oldNum"> <br /><br />
+    New Name: <input type="text" name="newNum"> <br /><br />
+
+    <input type="submit" value="Update" name="updateSubmit"></p>
+</form>
+
+<hr />
+
+</body>
+</html>

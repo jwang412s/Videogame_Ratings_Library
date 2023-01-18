@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Filter Games</title>
+  <link rel="stylesheet" href="./css/filter-games-style.css" type="text/css">
+</head>
+<body>
+<div class="title">Filter Games</div>
+<fieldset>
+  <legend>Find games released:</legend>
+  <form>
+    <input type="radio" id="during" name="criteria" value="during" checked=true>
+    <label for="during">During</label><br>
+    <input type="radio" id="before" name="criteria" value="before">
+    <label for="before">Before</label><br>
+    <input type="radio" id="after" name="criteria" value="after">
+    <label for="after">After</label><br>
+    <label for="number">This year:</label>
+    <input type="number" id="number" name="number" min="1950" max="2100" value="2000">
+    <div class="text-part">With price:</div>
+    <input type="radio" id="equal" name="price-criteria" value="equal" checked=true>
+    <label for="equal">Equal To</label><br>
+    <input type="radio" id="lower" name="price-criteria" value="lower">
+    <label for="lower">Lower Than</label><br>
+    <input type="radio" id="greater" name="price-criteria" value="greater">
+    <label for="greater">Greater Than</label><br>
+    <label for="price">This price:</label>
+    <input type="number" id="price" name="price" min="0"><br>
+    <input type="submit" value="Submit">
+  </form>
+</fieldset>
+<table>
+  <tr>
+    <th>Game</th>
+    <th>Price</th>
+  </tr>
+</table>
+</body>
+</html>

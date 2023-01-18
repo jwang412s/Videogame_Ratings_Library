@@ -1,0 +1,58 @@
+.games-title {
+    font-family: Inter, Inter, sans-serif;
+    font-size: xx-large;
+    color: white;
+    padding-top: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+table {
+    display: block;
+    width: 40%;
+    max-height: 290px;
+    overflow-y: auto;
+}
+
+th {
+    font-family: Inter, Inter, sans-serif;
+    font-size: x-large;
+    color: black;
+    padding-top: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: left;
+}
+
+td {
+    font-family: Inter, Inter, sans-serif;
+    font-size: large;
+    color: black;
+    padding-top: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+a {
+    font-family: Inter, Inter, sans-serif;
+    cursor: pointer;
+    padding: 25px 10px;
+    font-size: medium;
+    float: left;
+}
+
+a:link {
+    color: white;
+    display: block;
+}
+
+a:hover {
+    color: black;
+}
+
+.more {
+    padding-top: 100px;
+    position: absolute;
+    right: 10px;
+    color: white;
+}

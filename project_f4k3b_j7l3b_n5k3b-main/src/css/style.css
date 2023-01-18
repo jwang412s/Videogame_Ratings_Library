@@ -1,0 +1,95 @@
+body {
+    width: 800px;
+    height: 500px;
+    background: linear-gradient(115.77deg, #2A3BD3 9.76%, rgba(205, 30, 220, 0) 102.75%);
+}
+
+.header {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #d8d8d8;
+    font-family: Inter, Inter, sans-serif;
+    align-items: center;
+    cursor: pointer;
+}
+
+a {
+    font-family: Inter, Inter, sans-serif;
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: black;
+}
+
+a:active {
+    color: black;
+}
+
+#navigation {
+
+}
+
+p {
+    font-size: 120%;
+    color: dimgray;
+}
+
+#contents {
+    float: right;
+}
+
+ul {
+
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #d8d8d8;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.welcome-content {
+    display: block;
+    padding: 50px 20px;
+    font-family: Inter, Inter, sans-serif;
+    text-align: center;
+    color: white;
+    font-size: large;
+}
+.mario {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.footer {
+    font-family: Inter, Inter, sans-serif;
+    font-size: medium;
+    color: white;
+    position: static;
+    bottom: 5px;
+}
+
+
+
+/* Change the link color to white on hover */
+li a:hover {
+    background-color: #c5c5c5;
+}

@@ -1,0 +1,35 @@
+.title {
+    font-family: Inter, Inter, sans-serif;
+    color: white;
+    font-size: x-large;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+legend {
+    font-family: Inter, Inter, sans-serif;
+    font-size: large;
+    color: white;
+}
+
+label, .text-part {
+    font-family: Inter, Inter, sans-serif;
+    font-size: medium;
+    color: white;
+}
+
+table {
+    padding-top: 20px;
+    width: 100%;
+    font-family: Inter, Inter, sans-serif;
+    color: white;
+}
+
+th {
+    font-size: large;
+    text-align: left;
+}
+
+td {
+    font-size: medium;
+}

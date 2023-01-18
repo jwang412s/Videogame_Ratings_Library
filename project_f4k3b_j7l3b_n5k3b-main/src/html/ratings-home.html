@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <link rel="stylesheet" href="css/ratings-style.css" type="text/css">
+</head>
+
+
+<body>
+<div class="ratings-title">Ratings:</div>
+<!--
+<table>
+    <tr>
+        <th>Game</th>
+        <th>Stars</th>
+        <th>Title</th>
+        <th>Options</th>
+    </tr>
+    <tr>
+        <td>FIFA 23</td>
+        <td>3</td>
+        <td>Same game as always</td> 
+        <td>Delete</td>
+    </tr>
+</table>
+-->
+
+<div class="calc">
+    <hr />
+
+    <h2>From all ratings, find the number of games grouped by price that have a rating higher than the total average of all ratings</h2>
+    <form method="GET" action="ratings.php"> <!--refresh page when submitted-->
+        <input type="hidden" id="ratingCalcRequest" name="ratingCalcRequest">
+        <!--Rating: <input type="text" name="ratingNum"> <br /><br />-->
+        
+
+        <input type="submit" value="click me!" name="calcRateSubmit"></p>
+    </form>
+    
+    <hr />
+
+    <h2>Enter your username to find all ratings you have made</h2>
+    <form method="POST" action="ratings.php"> <!--refresh page when submitted-->
+        <input type="hidden" id="soloQueryRequest" name="soloQueryRequest">
+        
+        Name: <input type="text" name="insName"> <br /><br />
+
+        <input type="submit" value="click me!" name="soloSubmit"></p>
+    </form>
+
+    <hr />
+
+
+    <h2>Find ratings of all users</h2>
+    <form method="GET" action="ratings.php"> <!--refresh page when submitted-->
+        <input type="hidden" id="findAllRequest" name="findAllRequest">
+        <!--Rating: <input type="text" name="ratingNum"> <br /><br />-->
+        
+
+        <input type="submit" value="click me!" name="findAllSubmit"></p>
+    </form>
+    
+    <hr />
+
+    <h2>Select your View</h2>
+    <form method="POST" action="ratings.php"> <!--refresh page when submitted-->
+        <input type="hidden" id="findViewRequest" name="findViewRequest">
+        <!--Rating: <input type="text" name="ratingNum"> <br /><br />-->
+        
+        View Level: <input type="text" name="insNum"> <br /><br />
+
+        <input type="submit" value="click me!" name="findViewSubmit"></p>
+    </form>
+    
+    <hr />
+
+
+
+</div>
+<div class="more">
+    <a href="add-ratings.php">Add a Rating</a><a href="division.php">Find users who have rated all our games (Division)</a>
+    <a href="aggregation-group-by.php">Find counts of games per rating</a>
+
+</div>
+
+
+
+</body>
+</html>

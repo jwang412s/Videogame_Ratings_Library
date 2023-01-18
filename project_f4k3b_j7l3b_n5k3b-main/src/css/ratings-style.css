@@ -1,0 +1,73 @@
+.ratings-title {
+    font-family: Inter, Inter, sans-serif;
+    font-size: xxx-large;
+    color: white;
+    padding-top: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+label {
+    font-family: Inter, Inter, sans-serif;
+    font-size: medium;
+    color: white;
+}
+
+input {
+    font-family: Inter, Inter, sans-serif;
+    font-size: small;
+    color: black;
+}
+
+h2 {
+    font-family: Inter, Inter, sans-serif;
+    color: white;
+    font-size: x-large;
+}
+
+table {
+    width: 100%;
+}
+
+th {
+    font-family: Inter, Inter, sans-serif;
+    font-size: x-large;
+    color: white;
+    padding-top: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: left;
+}
+
+td {
+    font-family: Inter, Inter, sans-serif;
+    font-size: small;
+    color: white;
+    padding-top: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+a {
+    font-family: Inter, Inter, sans-serif;
+    cursor: pointer;
+    padding: 25px 10px;
+    font-size: medium;
+    float: left;
+}
+
+a:link {
+    color: white;
+    display: block;
+}
+
+a:hover {
+    color: black;
+}
+
+.more {
+    padding-top: 100px;
+    position: absolute;
+    right: 10px;
+    color: white;
+}
